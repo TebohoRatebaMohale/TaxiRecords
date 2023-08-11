@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0562BB82A850FE60068CEF5 /* Taxi_Bookkooping_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BB72A850FE60068CEF5 /* Taxi_Bookkooping_App.swift */; };
+		D0562BBA2A850FE60068CEF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BB92A850FE60068CEF5 /* ContentView.swift */; };
+		D0562BBC2A850FE90068CEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0562BBB2A850FE90068CEF5 /* Assets.xcassets */; };
+		D0562BBF2A850FE90068CEF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0562BBE2A850FE90068CEF5 /* Preview Assets.xcassets */; };
+		D0562BC92A850FE90068CEF5 /* Taxi_Bookkooping_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BC82A850FE90068CEF5 /* Taxi_Bookkooping_Tests.swift */; };
+		D0562BD32A850FE90068CEF5 /* Taxi_Bookkooping_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BD22A850FE90068CEF5 /* Taxi_Bookkooping_UITests.swift */; };
+		D0562BD52A850FE90068CEF5 /* Taxi_Bookkooping_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BD42A850FE90068CEF5 /* Taxi_Bookkooping_UITestsLaunchTests.swift */; };
+		D0562BE22A8510050068CEF5 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BE12A8510050068CEF5 /* DataModels.swift */; };
+		D0562BE42A8510E30068CEF5 /* DataMangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0562BE32A8510E30068CEF5 /* DataMangement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0562BC52A850FE90068CEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0562BAC2A850FE60068CEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0562BB32A850FE60068CEF5;
+			remoteInfo = "Taxi(Bookkooping)";
+		};
+		D0562BCF2A850FE90068CEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0562BAC2A850FE60068CEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0562BB32A850FE60068CEF5;
+			remoteInfo = "Taxi(Bookkooping)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0562BB42A850FE60068CEF5 /* Taxi(Bookkooping).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taxi(Bookkooping).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0562BB72A850FE60068CEF5 /* Taxi_Bookkooping_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi_Bookkooping_App.swift; sourceTree = "<group>"; };
+		D0562BB92A850FE60068CEF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0562BBB2A850FE90068CEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0562BBE2A850FE90068CEF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0562BC42A850FE90068CEF5 /* Taxi(Bookkooping)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taxi(Bookkooping)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0562BC82A850FE90068CEF5 /* Taxi_Bookkooping_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi_Bookkooping_Tests.swift; sourceTree = "<group>"; };
+		D0562BCE2A850FE90068CEF5 /* Taxi(Bookkooping)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taxi(Bookkooping)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0562BD22A850FE90068CEF5 /* Taxi_Bookkooping_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi_Bookkooping_UITests.swift; sourceTree = "<group>"; };
+		D0562BD42A850FE90068CEF5 /* Taxi_Bookkooping_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi_Bookkooping_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0562BE12A8510050068CEF5 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		D0562BE32A8510E30068CEF5 /* DataMangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMangement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0562BB12A850FE60068CEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0562BC12A850FE90068CEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0562BCB2A850FE90068CEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0562BAB2A850FE60068CEF5 = {
+			isa = PBXGroup;
+			children = (
+				D0562BB62A850FE60068CEF5 /* Taxi(Bookkooping) */,
+				D0562BC72A850FE90068CEF5 /* Taxi(Bookkooping)Tests */,
+				D0562BD12A850FE90068CEF5 /* Taxi(Bookkooping)UITests */,
+				D0562BB52A850FE60068CEF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0562BB52A850FE60068CEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0562BB42A850FE60068CEF5 /* Taxi(Bookkooping).app */,
+				D0562BC42A850FE90068CEF5 /* Taxi(Bookkooping)Tests.xctest */,
+				D0562BCE2A850FE90068CEF5 /* Taxi(Bookkooping)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0562BB62A850FE60068CEF5 /* Taxi(Bookkooping) */ = {
+			isa = PBXGroup;
+			children = (
+				D0562BB72A850FE60068CEF5 /* Taxi_Bookkooping_App.swift */,
+				D0562BB92A850FE60068CEF5 /* ContentView.swift */,
+				D0562BBB2A850FE90068CEF5 /* Assets.xcassets */,
+				D0562BBD2A850FE90068CEF5 /* Preview Content */,
+				D0562BE12A8510050068CEF5 /* DataModels.swift */,
+				D0562BE32A8510E30068CEF5 /* DataMangement.swift */,
+			);
+			path = "Taxi(Bookkooping)";
+			sourceTree = "<group>";
+		};
+		D0562BBD2A850FE90068CEF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0562BBE2A850FE90068CEF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0562BC72A850FE90068CEF5 /* Taxi(Bookkooping)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D0562BC82A850FE90068CEF5 /* Taxi_Bookkooping_Tests.swift */,
+			);
+			path = "Taxi(Bookkooping)Tests";
+			sourceTree = "<group>";
+		};
+		D0562BD12A850FE90068CEF5 /* Taxi(Bookkooping)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0562BD22A850FE90068CEF5 /* Taxi_Bookkooping_UITests.swift */,
+				D0562BD42A850FE90068CEF5 /* Taxi_Bookkooping_UITestsLaunchTests.swift */,
+			);
+			path = "Taxi(Bookkooping)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0562BB32A850FE60068CEF5 /* Taxi(Bookkooping) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0562BD82A850FE90068CEF5 /* Build configuration list for PBXNativeTarget "Taxi(Bookkooping)" */;
+			buildPhases = (
+				D0562BB02A850FE60068CEF5 /* Sources */,
+				D0562BB12A850FE60068CEF5 /* Frameworks */,
+				D0562BB22A850FE60068CEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taxi(Bookkooping)";
+			productName = "Taxi(Bookkooping)";
+			productReference = D0562BB42A850FE60068CEF5 /* Taxi(Bookkooping).app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0562BC32A850FE90068CEF5 /* Taxi(Bookkooping)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0562BDB2A850FE90068CEF5 /* Build configuration list for PBXNativeTarget "Taxi(Bookkooping)Tests" */;
+			buildPhases = (
+				D0562BC02A850FE90068CEF5 /* Sources */,
+				D0562BC12A850FE90068CEF5 /* Frameworks */,
+				D0562BC22A850FE90068CEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0562BC62A850FE90068CEF5 /* PBXTargetDependency */,
+			);
+			name = "Taxi(Bookkooping)Tests";
+			productName = "Taxi(Bookkooping)Tests";
+			productReference = D0562BC42A850FE90068CEF5 /* Taxi(Bookkooping)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0562BCD2A850FE90068CEF5 /* Taxi(Bookkooping)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0562BDE2A850FE90068CEF5 /* Build configuration list for PBXNativeTarget "Taxi(Bookkooping)UITests" */;
+			buildPhases = (
+				D0562BCA2A850FE90068CEF5 /* Sources */,
+				D0562BCB2A850FE90068CEF5 /* Frameworks */,
+				D0562BCC2A850FE90068CEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0562BD02A850FE90068CEF5 /* PBXTargetDependency */,
+			);
+			name = "Taxi(Bookkooping)UITests";
+			productName = "Taxi(Bookkooping)UITests";
+			productReference = D0562BCE2A850FE90068CEF5 /* Taxi(Bookkooping)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0562BAC2A850FE60068CEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D0562BB32A850FE60068CEF5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D0562BC32A850FE90068CEF5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D0562BB32A850FE60068CEF5;
+					};
+					D0562BCD2A850FE90068CEF5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D0562BB32A850FE60068CEF5;
+					};
+				};
+			};
+			buildConfigurationList = D0562BAF2A850FE60068CEF5 /* Build configuration list for PBXProject "Taxi(Bookkooping)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0562BAB2A850FE60068CEF5;
+			productRefGroup = D0562BB52A850FE60068CEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0562BB32A850FE60068CEF5 /* Taxi(Bookkooping) */,
+				D0562BC32A850FE90068CEF5 /* Taxi(Bookkooping)Tests */,
+				D0562BCD2A850FE90068CEF5 /* Taxi(Bookkooping)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0562BB22A850FE60068CEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0562BBF2A850FE90068CEF5 /* Preview Assets.xcassets in Resources */,
+				D0562BBC2A850FE90068CEF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0562BC22A850FE90068CEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0562BCC2A850FE90068CEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0562BB02A850FE60068CEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0562BE42A8510E30068CEF5 /* DataMangement.swift in Sources */,
+				D0562BE22A8510050068CEF5 /* DataModels.swift in Sources */,
+				D0562BBA2A850FE60068CEF5 /* ContentView.swift in Sources */,
+				D0562BB82A850FE60068CEF5 /* Taxi_Bookkooping_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0562BC02A850FE90068CEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0562BC92A850FE90068CEF5 /* Taxi_Bookkooping_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0562BCA2A850FE90068CEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0562BD32A850FE90068CEF5 /* Taxi_Bookkooping_UITests.swift in Sources */,
+				D0562BD52A850FE90068CEF5 /* Taxi_Bookkooping_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0562BC62A850FE90068CEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0562BB32A850FE60068CEF5 /* Taxi(Bookkooping) */;
+			targetProxy = D0562BC52A850FE90068CEF5 /* PBXContainerItemProxy */;
+		};
+		D0562BD02A850FE90068CEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0562BB32A850FE60068CEF5 /* Taxi(Bookkooping) */;
+			targetProxy = D0562BCF2A850FE90068CEF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0562BD62A850FE90068CEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0562BD72A850FE90068CEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0562BD92A850FE90068CEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taxi(Bookkooping)/Preview Content\"";
+				DEVELOPMENT_TEAM = AZ5ACU4J66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teboho.Mohale.Taxi-Bookkooping-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0562BDA2A850FE90068CEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taxi(Bookkooping)/Preview Content\"";
+				DEVELOPMENT_TEAM = AZ5ACU4J66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teboho.Mohale.Taxi-Bookkooping-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0562BDC2A850FE90068CEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ5ACU4J66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teboho.Mohale.Taxi-Bookkooping-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taxi(Bookkooping).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taxi(Bookkooping)";
+			};
+			name = Debug;
+		};
+		D0562BDD2A850FE90068CEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ5ACU4J66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teboho.Mohale.Taxi-Bookkooping-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taxi(Bookkooping).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taxi(Bookkooping)";
+			};
+			name = Release;
+		};
+		D0562BDF2A850FE90068CEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ5ACU4J66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teboho.Mohale.Taxi-Bookkooping-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taxi(Bookkooping)";
+			};
+			name = Debug;
+		};
+		D0562BE02A850FE90068CEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ5ACU4J66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teboho.Mohale.Taxi-Bookkooping-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taxi(Bookkooping)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0562BAF2A850FE60068CEF5 /* Build configuration list for PBXProject "Taxi(Bookkooping)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0562BD62A850FE90068CEF5 /* Debug */,
+				D0562BD72A850FE90068CEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0562BD82A850FE90068CEF5 /* Build configuration list for PBXNativeTarget "Taxi(Bookkooping)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0562BD92A850FE90068CEF5 /* Debug */,
+				D0562BDA2A850FE90068CEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0562BDB2A850FE90068CEF5 /* Build configuration list for PBXNativeTarget "Taxi(Bookkooping)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0562BDC2A850FE90068CEF5 /* Debug */,
+				D0562BDD2A850FE90068CEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0562BDE2A850FE90068CEF5 /* Build configuration list for PBXNativeTarget "Taxi(Bookkooping)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0562BDF2A850FE90068CEF5 /* Debug */,
+				D0562BE02A850FE90068CEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0562BAC2A850FE60068CEF5 /* Project object */;
+}
